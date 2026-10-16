@@ -1,0 +1,94 @@
+{
+  "DEAUTH": 0,
+  "BEACON": 0,
+  "EVIL_TWIN": 0,
+  "PCAP_SNIFF": 1,
+  "events": [
+    {
+      "time": "2026-10-13 01:20:25",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 3 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:20:52",
+      "type": "PCAP_SNIFF",
+      "detail": "02:00:00:xx:xx:xx sent 3 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:21:26",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 5 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:22:00",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 4 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:22:03",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 3 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:22:43",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 3 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:23:20",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 8 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:23:42",
+      "type": "PCAP_SNIFF",
+      "detail": "92:e2:23:xx:xx:xx sent 5 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:23:51",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 4 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:24:16",
+      "type": "PCAP_SNIFF",
+      "detail": "92:e2:23:xx:xx:xx sent 7 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:24:22",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 3 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:24:43",
+      "type": "PCAP_SNIFF",
+      "detail": "4e:b0:e1:xx:xx:xx sent 23 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:24:52",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 3 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:25:25",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 3 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:25:30",
+      "type": "PCAP_SNIFF",
+      "detail": "02:00:00:xx:xx:xx sent 3 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:26:01",
+      "type": "PCAP_SNIFF",
+      "detail": "2c:cf:67:xx:xx:xx sent 4 probes/1s"
+    },
+    {
+      "time": "2026-10-13 01:32:41",
+      "type": "BEACON",
+      "detail": "164 unique BSSIDs in 10s"
+    }
+  ],
+  "updated": "2026-10-13 01:37:26"
+}
