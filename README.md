@@ -74,7 +74,7 @@ Not required: a fast SD card or a large amount of RAM, but see the design constr
 sudo apt update && sudo apt install -y tshark iw python3-pip
 # "Should non-superusers be able to capture packets?"  ->  No (the engine runs as root)
 
-git clone https://github.com/<your-user>/wids-tshark.git ~/wids && cd ~/wids
+git clone https://github.com/Net-Xpl0it/Raspberry_Pi_WIDS.git ~/wids && cd ~/wids
 pip install --break-system-packages -r requirements.txt
 ```
 
