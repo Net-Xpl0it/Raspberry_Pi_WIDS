@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+
+# runtime output (contains real MACs and SSIDs)
+wifi_log.json
+wifi_events.jsonl
+.last_channel
+
+# raw captures and unmasked evidence
+*.pcap
+*.pcapng
+*.pcap.gz
+pcaps/
+records/raw/
