@@ -64,7 +64,7 @@ More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 | `tshark`, `iw`, Python 3, `scapy`, `streamlit` | capture, channel control, probe analysis, dashboard (`pip install -r requirements.txt`) |
 | `root` for the engine and the monitor-mode script | packet capture and interface control (the dashboard needs no sudo) |
 | Your own router's SSID and **every** BSSID (2.4 GHz and 5 GHz radios) | `EVIL_TWIN` trusts only the BSSIDs you list in `TRUSTED_APS`; leaving the placeholder in place means it will not work correctly |
-| A network and devices **you own**, plus a test tool of your own if you want to generate attacks | the repo has no attack code; see [Responsible use](#responsible-use) |
+| A network and devices **you own**, plus a test tool of your own if you want to generate attacks | the repo has no attack code; see [test tools](docs/ATTACK_TOOLS.md) and [Responsible use](#responsible-use) |
 
 Not required: a fast SD card or a large amount of RAM, but see the design constraints above for what that means for logging.
 
@@ -128,6 +128,7 @@ Details and raw evidence: [records/](records/TEST_LOG.md). How to reproduce: [do
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | threads, shared state, file formats, design decisions |
 | [docs/DETECTION_RULES.md](docs/DETECTION_RULES.md) | every rule, threshold, timer, known false positives |
 | [docs/TESTING.md](docs/TESTING.md) | how to test safely, what to record |
+| [docs/ATTACK_TOOLS.md](docs/ATTACK_TOOLS.md) | the HackCat V3 and M5 / Bruce test tools: how they work, what the WIDS sees |
 | [docs/PRIVACY.md](docs/PRIVACY.md) | what to mask before publishing |
 | [records/](records/TEST_LOG.md) | test log and evidence |
 
