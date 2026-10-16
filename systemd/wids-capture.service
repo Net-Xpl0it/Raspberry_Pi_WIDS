@@ -1,0 +1,19 @@
+[Unit]
+Description=WIDS capture and detection engine (tshark + Scapy)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/pi/wids
+# Edit SSID and BSSID to match your own router. The script finds its channel,
+# puts the adapter in monitor mode and locks the channel before every start.
+Environment=SSID=MyHomeWiFi
+Environment=BSSID=aa:bb:cc:dd:ee:ff
+ExecStartPre=/home/pi/wids/scripts/monitor-mode.sh
+ExecStart=/usr/bin/python3 /home/pi/wids/real_time_capture.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
